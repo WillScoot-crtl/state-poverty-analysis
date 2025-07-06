@@ -14,7 +14,7 @@ def state_poverty_data():
                       'North Carolina': 'NC37000',
                       'West Virginia': 'WV54000',
                       'Missouri': 'MO29000',
-                      'Flordia': 'FL12000',
+                      'Florida': 'FL12000',
                       'New Jersey': 'NJ34000',
                       'North Dakota': 'ND38000',
                 }

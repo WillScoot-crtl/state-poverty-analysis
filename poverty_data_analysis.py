@@ -44,11 +44,10 @@ def state_poverty_data():
         print(f'{dict_historical_data[state]}\n')
 
         #for each state, printing sum, mead, and standard deviation
-        data.append(df_poverty['Annual Percentage'].sum())
         data.append(df_poverty['Annual Percentage'].mean())
         data.append(df_poverty['Annual Percentage'].std())
 
-        df = pd.DataFrame(data, index=['Sum','Mean','Std'], columns=[f'{state}'])
+        df = pd.DataFrame(data, index=['Mean','Std'], columns=[f'{state}'])
         print(df)
 
 state_poverty_data()

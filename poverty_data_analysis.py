@@ -51,9 +51,6 @@ def poverty_analysis():
 
 
 
-    
-
-poverty_analysis()
 
         
 
